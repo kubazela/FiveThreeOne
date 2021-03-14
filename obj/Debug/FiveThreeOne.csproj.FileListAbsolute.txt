@@ -1,0 +1,15 @@
+D:\Projekty\FiveThreeOne\bin\Debug\FiveThreeOne.exe.config
+D:\Projekty\FiveThreeOne\bin\Debug\FiveThreeOne.exe
+D:\Projekty\FiveThreeOne\bin\Debug\FiveThreeOne.pdb
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.csprojAssemblyReference.cache
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.Properties.Resources.resources
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.csproj.GenerateResource.cache
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.csproj.CoreCompileInputs.cache
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.exe
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.pdb
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.InitialSettingForm.resources
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.MainForm.resources
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.StartupForm.resources
+D:\Projekty\FiveThreeOne\bin\Debug\ClassLibrary.dll
+D:\Projekty\FiveThreeOne\bin\Debug\ClassLibrary.pdb
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.csproj.CopyComplete
