@@ -23,7 +23,7 @@ namespace FiveThreeOne {
         }
         private void btProceed_Click(object sender, EventArgs e) {
             try {
-                this.name = tBoxName.Text;
+                name = tBoxName.Text;
                 double benchPressValue = double.Parse(tBoxInitBenchPress.Text);
                 double squatValue = double.Parse(tBoxInitSquat.Text);
                 double deadliftValue = double.Parse(tBoxInitDeadlift.Text);
@@ -39,7 +39,7 @@ namespace FiveThreeOne {
                 catch { }
 
                 this.Hide();
-                MainForm mainForm = new MainForm();
+                MainForm mainForm = new MainForm(name);
                 mainForm.Closed += (s, args) => this.Close();
                 mainForm.ShowDialog();
 

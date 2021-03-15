@@ -24,6 +24,18 @@ namespace FiveThreeOne {
             }
         }
 
+        private void btSelectUser_Click(object sender, EventArgs e) {
+            if(listBoxUsers.SelectedItem != null) {
+                this.Hide();
+                MainForm mainForm = new MainForm(listBoxUsers.SelectedItem.ToString());
+                mainForm.Closed += (s, args) => this.Close();
+                mainForm.ShowDialog();
+            }
+            else {
+                MessageBox.Show("Select user", "Error");
+            }
+        }
+
         private void btCreateUser_Click(object sender, EventArgs e) {
             this.Hide();
             InitialSettingForm initForm = new InitialSettingForm();
@@ -34,7 +46,7 @@ namespace FiveThreeOne {
         private void btDeleteUser_Click(object sender, EventArgs e) {
             //string name = listBoxUsers.SelectedItem.Va;
             string name = listBoxUsers.GetItemText(listBoxUsers.SelectedItem.ToString());
-            FileLib.DeleteFile(name);
+            FileLib.DeleteFile(name + ".xml");
             StartupForm_Load(sender, e);
         }
     }

@@ -60,6 +60,7 @@ namespace FiveThreeOne {
             this.btSelectUser.TabIndex = 2;
             this.btSelectUser.Text = "Select user";
             this.btSelectUser.UseVisualStyleBackColor = true;
+            this.btSelectUser.Click += new System.EventHandler(this.btSelectUser_Click);
             // 
             // btCreateUser
             // 
