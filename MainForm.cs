@@ -62,7 +62,7 @@ namespace FiveThreeOne {
             WorkoutForm workoutForm = new WorkoutForm(name, "BenchPress");
             workoutForm.ShowDialog();
         }
-
+        
         private void btSquatStart_Click(object sender, EventArgs e) {
             WorkoutForm workoutForm = new WorkoutForm(name, "Squat");
             workoutForm.ShowDialog();
