@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.IO;
 using System.Xml;
+using ClassLibrary;
 
 namespace FiveThreeOne {
     public partial class MainForm : Form {
@@ -36,20 +37,45 @@ namespace FiveThreeOne {
             XmlDocument xmlDoc = new XmlDocument();
             xmlDoc.Load(name + ".xml");
             XmlElement root = xmlDoc.DocumentElement;
-            lbBenchPressORM.Text = root.SelectSingleNode("ORMbenchPress").InnerText;
-            lbSquatORM.Text = root.SelectSingleNode("ORMsquat").InnerText;
-            lbDeadliftORM.Text = root.SelectSingleNode("ORMdeadLift").InnerText;
-            lbOhpORM.Text = root.SelectSingleNode("ORMohp").InnerText;
+            lbBenchPressORM.Text = root.SelectSingleNode("ORMBenchPress").InnerText;
+            lbSquatORM.Text = root.SelectSingleNode("ORMSquat").InnerText;
+            lbDeadliftORM.Text = root.SelectSingleNode("ORMDeadLift").InnerText;
+            lbOhpORM.Text = root.SelectSingleNode("ORMOhp").InnerText;
 
-            lbBenchPressCycleWeek.Text = root.SelectSingleNode("CycleWeekBenchPress").InnerText;
-            lbSquatCycleWeek.Text = root.SelectSingleNode("CycleWeekBenchPress").InnerText;
-            lbDeadliftCycleWeek.Text = root.SelectSingleNode("CycleWeekDeadLift").InnerText;
-            lbOhpCycleWeek.Text = root.SelectSingleNode("CycleWeekOHP").InnerText;
+            lbBenchPressCycle.Text = root.SelectSingleNode("CycleBenchPress").InnerText;
+            lbSquatCycle.Text = root.SelectSingleNode("CycleBenchPress").InnerText;
+            lbDeadliftCycle.Text = root.SelectSingleNode("CycleDeadLift").InnerText;
+            lbOhpCycle.Text = root.SelectSingleNode("CycleOhp").InnerText;
+
+            lbBenchPressWeek.Text = root.SelectSingleNode("WeekBenchPress").InnerText;
+            lbSquatWeek.Text = root.SelectSingleNode("WeekBenchPress").InnerText;
+            lbDeadliftWeek.Text = root.SelectSingleNode("WeekDeadLift").InnerText;
+            lbOhpWeek.Text = root.SelectSingleNode("WeekOhp").InnerText;
 
             lbBenchPressLastDate.Text = root.SelectSingleNode("LastDateBenchPress").InnerText;
             lbSquatLastDate.Text = root.SelectSingleNode("LastDateBenchPress").InnerText;
             lbDeadliftLastDate.Text = root.SelectSingleNode("LastDateDeadLift").InnerText;
-            lbOhpLastDate.Text = root.SelectSingleNode("LastDateOHP").InnerText;
+            lbOhpLastDate.Text = root.SelectSingleNode("LastDateOhp").InnerText;
+        }
+
+        private void btBenchStart_Click(object sender, EventArgs e) {
+            WorkoutForm workoutForm = new WorkoutForm(name, "BenchPress");
+            workoutForm.ShowDialog();
+        }
+
+        private void btSquatStart_Click(object sender, EventArgs e) {
+            WorkoutForm workoutForm = new WorkoutForm(name, "Squat");
+            workoutForm.ShowDialog();
+        }
+
+        private void btDeadliftStart_Click(object sender, EventArgs e) {
+            WorkoutForm workoutForm = new WorkoutForm(name, "DeadLift");
+            workoutForm.ShowDialog();
+        }
+
+        private void btOhpStart_Click(object sender, EventArgs e) {
+            WorkoutForm workoutForm = new WorkoutForm(name, "Ohp");
+            workoutForm.ShowDialog();
         }
     }
 }

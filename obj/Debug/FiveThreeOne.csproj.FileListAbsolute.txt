@@ -13,3 +13,4 @@ D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.StartupForm.resources
 D:\Projekty\FiveThreeOne\bin\Debug\ClassLibrary.dll
 D:\Projekty\FiveThreeOne\bin\Debug\ClassLibrary.pdb
 D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.csproj.CopyComplete
+D:\Projekty\FiveThreeOne\obj\Debug\FiveThreeOne.WorkoutForm.resources
