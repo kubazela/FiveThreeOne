@@ -235,6 +235,11 @@ namespace FiveThreeOne {
             // numWarmUpWeight3
             // 
             this.numWarmUpWeight3.Location = new System.Drawing.Point(131, 81);
+            this.numWarmUpWeight3.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numWarmUpWeight3.Name = "numWarmUpWeight3";
             this.numWarmUpWeight3.Size = new System.Drawing.Size(41, 20);
             this.numWarmUpWeight3.TabIndex = 9;
@@ -242,6 +247,11 @@ namespace FiveThreeOne {
             // numWarmUpWeight2
             // 
             this.numWarmUpWeight2.Location = new System.Drawing.Point(131, 55);
+            this.numWarmUpWeight2.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numWarmUpWeight2.Name = "numWarmUpWeight2";
             this.numWarmUpWeight2.Size = new System.Drawing.Size(41, 20);
             this.numWarmUpWeight2.TabIndex = 8;
@@ -249,6 +259,11 @@ namespace FiveThreeOne {
             // numWarmUpWeight1
             // 
             this.numWarmUpWeight1.Location = new System.Drawing.Point(131, 29);
+            this.numWarmUpWeight1.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numWarmUpWeight1.Name = "numWarmUpWeight1";
             this.numWarmUpWeight1.Size = new System.Drawing.Size(41, 20);
             this.numWarmUpWeight1.TabIndex = 7;
@@ -355,6 +370,11 @@ namespace FiveThreeOne {
             // numMainWeight3
             // 
             this.numMainWeight3.Location = new System.Drawing.Point(131, 81);
+            this.numMainWeight3.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numMainWeight3.Name = "numMainWeight3";
             this.numMainWeight3.Size = new System.Drawing.Size(41, 20);
             this.numMainWeight3.TabIndex = 9;
@@ -362,6 +382,11 @@ namespace FiveThreeOne {
             // numMainWeight2
             // 
             this.numMainWeight2.Location = new System.Drawing.Point(131, 55);
+            this.numMainWeight2.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numMainWeight2.Name = "numMainWeight2";
             this.numMainWeight2.Size = new System.Drawing.Size(41, 20);
             this.numMainWeight2.TabIndex = 8;
@@ -369,6 +394,11 @@ namespace FiveThreeOne {
             // numMainWeight1
             // 
             this.numMainWeight1.Location = new System.Drawing.Point(131, 29);
+            this.numMainWeight1.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numMainWeight1.Name = "numMainWeight1";
             this.numMainWeight1.Size = new System.Drawing.Size(41, 20);
             this.numMainWeight1.TabIndex = 7;
@@ -479,6 +509,11 @@ namespace FiveThreeOne {
             // numBBBWeight5
             // 
             this.numBBBWeight5.Location = new System.Drawing.Point(131, 133);
+            this.numBBBWeight5.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numBBBWeight5.Name = "numBBBWeight5";
             this.numBBBWeight5.Size = new System.Drawing.Size(41, 20);
             this.numBBBWeight5.TabIndex = 23;
@@ -486,6 +521,11 @@ namespace FiveThreeOne {
             // numBBBWeight4
             // 
             this.numBBBWeight4.Location = new System.Drawing.Point(131, 107);
+            this.numBBBWeight4.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numBBBWeight4.Name = "numBBBWeight4";
             this.numBBBWeight4.Size = new System.Drawing.Size(41, 20);
             this.numBBBWeight4.TabIndex = 22;
@@ -599,6 +639,11 @@ namespace FiveThreeOne {
             // numBBBWeight3
             // 
             this.numBBBWeight3.Location = new System.Drawing.Point(131, 81);
+            this.numBBBWeight3.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numBBBWeight3.Name = "numBBBWeight3";
             this.numBBBWeight3.Size = new System.Drawing.Size(41, 20);
             this.numBBBWeight3.TabIndex = 9;
@@ -606,6 +651,11 @@ namespace FiveThreeOne {
             // numBBBWeight2
             // 
             this.numBBBWeight2.Location = new System.Drawing.Point(131, 55);
+            this.numBBBWeight2.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numBBBWeight2.Name = "numBBBWeight2";
             this.numBBBWeight2.Size = new System.Drawing.Size(41, 20);
             this.numBBBWeight2.TabIndex = 8;
@@ -613,6 +663,11 @@ namespace FiveThreeOne {
             // numBBBWeight1
             // 
             this.numBBBWeight1.Location = new System.Drawing.Point(131, 29);
+            this.numBBBWeight1.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numBBBWeight1.Name = "numBBBWeight1";
             this.numBBBWeight1.Size = new System.Drawing.Size(41, 20);
             this.numBBBWeight1.TabIndex = 7;
